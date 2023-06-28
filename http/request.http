@@ -1,0 +1,22 @@
+### 회원가입
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+
+{
+  "loginId": "dud",
+  "password": "1234",
+  "email": "dud@gg.com",
+  "phoneNumber": "010-1234-5678"
+}
+
+### 로그인
+
+POST http://localhost:8080/api/v1/auth/authenticate
+Content-Type: application/json
+
+{
+  "loginId": "dud",
+  "password": "1234"
+}
+
